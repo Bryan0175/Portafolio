@@ -7,10 +7,10 @@ const Data = () => {
               Brayan Duarte
           </h1>
           <h3 className="home__subtitle">Fullstack Developer</h3>
-          <p className="home__description">I’m creative developer based in Bogotá, i’m
-          focused on react and node, self-taught and in continuous learning...</p>
+          <p className="home__description">Soy un desarrollador creativo viviendo en Bogotá,
+              enfocado en el <strong style={{color:"#444"}}>MERN</strong> stack, siempre actualizado con las nuevas tecnologias.</p>
           <a href="#contact" className="button button--flex">
-              Say Hello<TbBrandTelegram size={25}/>
+              Escribeme <TbBrandTelegram size={25} style={{marginLeft:"5px"}}/>
           </a>
       </div>
   );

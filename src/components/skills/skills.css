@@ -28,6 +28,7 @@
 .skills__data{
     display: flex;
     column-gap: 0.5rem;
+    align-items: center;
 }
 .skills__icon{
     font-size: 1.5rem;

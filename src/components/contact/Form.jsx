@@ -25,32 +25,32 @@ const Form = () => {
   return(
       <form ref={form} onSubmit={sendEmail} className="contact__form">
           <div className="contact__form-div">
-              <label className="contact__form-tag">Name</label>
+              <label className="contact__form-tag">Nombre</label>
               <input
                   type="text"
                   name="name"
                   className="contact__form-input"
-                  placeholder="Insert your name"
+                  placeholder="Escribe tu nombre"
                   required={true}
               />
           </div>
           <div className="contact__form-div">
-              <label className="contact__form-tag">Mail</label>
+              <label className="contact__form-tag">Correo</label>
               <input
                   type="email"
                   name="mail"
                   className="contact__form-input"
-                  placeholder="Insert your mail"
+                  placeholder="Escribe tu correo"
               />
           </div>
           <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Project</label>
+              <label className="contact__form-tag">Proyecto</label>
               <textarea
                   name="project"
                   cols="30"
                   rows="10"
                   className="contact__form-input"
-                  placeholder="Write your project"
+                  placeholder="Escribe tu proyecto"
               >
                 </textarea>
           </div>
@@ -58,7 +58,7 @@ const Form = () => {
           {/*  <button className="mail-btn">Send Message<AiOutlineSend className="contact__form-iconSend"/></button>*/}
           {/*</div>*/}
           <button type="submit" value="Send" className="button button--flex">
-              Send Message<AiOutlineSend className="contact__form-iconSend"/>
+              Enviar Mensaje<AiOutlineSend className="contact__form-iconSend"/>
           </button>
              <h1>{message}</h1>
       </form>
