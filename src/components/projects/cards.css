@@ -10,6 +10,6 @@
     padding: 5px 10px;
     background-color: var(--title-color);
 }
-.btn_source a:visited,.btn_deploy a:link{
+.btn_source a:visited,.btn_source a:link,.btn_deploy a:visited,.btn_deploy a:link{
     color: #fff;
 }
