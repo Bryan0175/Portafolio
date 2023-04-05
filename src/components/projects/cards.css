@@ -1,0 +1,15 @@
+.project__group>*{
+    margin: 2rem 0;
+}
+.project__actions{
+    display: flex;
+    gap: 1rem;
+}
+.btn_source,.btn_deploy{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: var(--title-color);
+}
+a:visited,a:link{
+    color: #fff;
+}
