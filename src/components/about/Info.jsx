@@ -7,10 +7,8 @@ const Info = () => {
       <div className="about__info">
         <div className="about__box">
           <p className="about__description">
-              Hola, soy Brayan Eduardo Duarte desarrollador junior fullstack,
-              vivo en la ciudad de bogota, tengo 25 años, tengo un hermano enfocado
-              en la parte de backed y mi <a target="_blank" href="https://portafolio-angelus.vercel.app/home">novia </a>
-              encofaca en la parte del fronted.</p>
+              Hola, soy Brayan Eduardo Duarte desarrollador junior fullstack y
+              vivo en la ciudad de bogotá </p>
           <AiFillHome className="about__icon"/>
         </div>
         <div className="about__box">
