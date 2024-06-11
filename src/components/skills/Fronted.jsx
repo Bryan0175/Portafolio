@@ -3,7 +3,7 @@ import { FaReact } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import { TbBrandCss3 } from "react-icons/tb";
-import { SiTypescript } from "react-icons/si";
+import { TbBrandTypescript } from "react-icons/tb";
 import { TbBrandAngular } from "react-icons/tb";
 
 const Fronted = () => {
@@ -35,7 +35,7 @@ const Fronted = () => {
             </div>
               <div className="skills__group">
                   <a href="https://www.typescriptlang.org/" target="_blank"><div className="skills__data">
-                      <SiTypescript className="skills__icon"/>
+                      <TbBrandTypescript className="skills__icon"/>
                       <div>
                           <h3 className="skills__name">TypeScript</h3>
                       </div>
