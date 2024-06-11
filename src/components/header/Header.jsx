@@ -51,9 +51,9 @@ const Header = () => {
             </ul>
             <FaTimes className="nav__close" onClick={() => showMenu(!Toggle)}/>
           </div>
-          <div>
+          {/*<div>
             Toggle
-          </div>
+          </div> */}
           <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
             <FaTh/>
           </div>
