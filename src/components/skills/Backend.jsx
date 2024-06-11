@@ -1,5 +1,5 @@
 import { DiJava } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
+import { FaNodeJs, FaLaravel } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { SiOracle, SiExpress } from "react-icons/si";
 import { IoLeafOutline } from "react-icons/io5";
@@ -17,10 +17,10 @@ const Backend = () => {
                       </div>
                   </div></a>
 
-                  <a href="https://www.mysql.com/" target="_blank"><div className="skills__data">
-                      <GrMysql className="skills__icon"/>
+                  <a href="https://laravel.com/" target="_blank"><div className="skills__data">
+                      <FaLaravel className="skills__icon"/>
                       <div>
-                          <h3 className="skills__name">MySql</h3>
+                          <h3 className="skills__name">Laravel</h3>
                       </div>
                   </div></a>
 
@@ -39,10 +39,10 @@ const Backend = () => {
                       </div>
                   </div></a>
 
-                  <a href="https://www.oracle.com/" target="_blank"><div className="skills__data">
+                  <a href="https://www.mysql.com/" target="_blank"><div className="skills__data">
                       <SiOracle className="skills__icon"/>
                       <div>
-                          <h3 className="skills__name">Oracle</h3>
+                          <h3 className="skills__name">MySql</h3>
                       </div>
                   </div></a>
 
