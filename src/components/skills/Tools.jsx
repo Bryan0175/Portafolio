@@ -1,7 +1,7 @@
 import { FiGithub } from "react-icons/fi";
-import { TbBrandDocker } from "react-icons/tb";
+import { TbBrandBitbucket } from "react-icons/tb";
 import { BiGitBranch } from "react-icons/bi";
-import { SiJest, SiPostman } from "react-icons/si";
+import { SiJest, SiPostman, SiVisualstudiocode } from "react-icons/si";
 
 const Tools = () => {
   return(
@@ -9,21 +9,21 @@ const Tools = () => {
           <h3 className="skills__title">Herramientas de desarrollador</h3>
           <div className="skills__box">
               <div className="skills__group">
-                  <a href="Github" target="_blank"><div className="skills__data">
+                  <a href="https://github.com/" target="_blank"><div className="skills__data">
                       <FiGithub className="skills__icon"/>
                       <div>
                           <h3 className="skills__name">Github</h3>
                       </div>
                   </div></a>
 
-                  <a href="Docker" target="_blank"><div className="skills__data">
-                      <TbBrandDocker className="skills__icon"/>
+                  <a href="https://bitbucket.org/" target="_blank"><div className="skills__data">
+                      <TbBrandBitbucket className="skills__icon"/>
                       <div>
-                          <h3 className="skills__name">Docker</h3>
+                          <h3 className="skills__name">Bitbucket</h3>
                       </div>
                   </div></a>
 
-                  <a href="Git" target="_blank"><div className="skills__data">
+                  <a href="https://git-scm.com/" target="_blank"><div className="skills__data">
                       <BiGitBranch className="skills__icon"/>
                       <div>
                           <h3 className="skills__name">Git</h3>
@@ -35,6 +35,13 @@ const Tools = () => {
                       <SiJest className="skills__icon"/>
                       <div>
                           <h3 className="skills__name">Jest</h3>
+                      </div>
+                  </div></a>
+
+                  <a href="https://code.visualstudio.com/" target="_blank"><div className="skills__data">
+                      <SiVisualstudiocode className="skills__icon"/>
+                      <div>
+                          <h3 className="skills__name">Visual Studio</h3>
                       </div>
                   </div></a>
 
